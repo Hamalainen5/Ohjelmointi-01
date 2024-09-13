@@ -8,20 +8,19 @@ connection = mysql.connector.connect(
          password='Eemeli04',
          autocommit=True,
          collation ='utf8mb4_general_ci')
-cursor = connection.cursor()
-cursor.execute("SELECT name, iso_country from country")
-#result = cursor.fetchone()
-#print(result[0])
-#result = cursor.fetchmany(3)
-#print(result)
-result = cursor.fetchall()
-print(result)
 
-print(cursor.rowcount)
-print(result)
-print(result[1][1])
-for row in result:
-    print(f"maan {row[0]} maakoodi on {row[1]}.")
-print(f"maita yhteensä: {cursor.rowcount}")
-if cursor.rowcount == 0:
-    print("ei yhtään maata.")
+#funktio joka pystyy hakemaan lentoaseman ICAO-koodin perusteella
+def fetch_airport_by_icao(code):
+    sql = f"select name, municipality from airport where ident ='{code}';"
+    cursor = connection.cursor()
+    cursor.execute(sql)
+    result_row = cursor.fetchone()
+    #print(result_row)
+    return result_row
+
+user_input = input("Anna ICAO-koodi: ")
+result = fetch_airport_by_icao(user_input)
+if result:
+    print(f"Haettu kenttä: {result[0]},{result[1]}")
+else:
+    print("Kenttää ei löydy")
