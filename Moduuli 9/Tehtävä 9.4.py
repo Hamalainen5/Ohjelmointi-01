@@ -58,3 +58,4 @@ for tulos in tulokset:
           f"Huippunopeus: {tulos['Huippunopeus (km/h)']} km/h, "
           f"Nopeus: {tulos['Tämänhetkinen nopeus (km/h)']} km/h, "
           f"Kuljettu matka: {tulos['Kuljettu matka (km)']} km")
+
