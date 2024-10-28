@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="159182aa-fa01-430a-9a4c-d310b619513f" name="Changes" comment="initial commit">
-      <change afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/matikka2/__init__.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/matikka2/matikka2.1.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 11/Tehtävä 11.1.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 11/Tehtävä 11.2.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 11/__init__.py" afterDir="false" />
       <change beforePath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,12 +67,15 @@
     "Python.Tehtävä 10.2.executor": "Run",
     "Python.Tehtävä 10.3.executor": "Run",
     "Python.Tehtävä 10.4.executor": "Run",
+    "Python.Tehtävä 11.1.executor": "Run",
+    "Python.Tehtävä 11.2.executor": "Run",
     "Python.Tehtävä 4.1.executor": "Run",
     "Python.Tehtävä 9.1.executor": "Run",
     "Python.Tehtävä 9.2.executor": "Run",
     "Python.Tehtävä 9.3.executor": "Run",
     "Python.Tehtävä 9.4.executor": "Run",
     "Python.matikka2.1.executor": "Run",
+    "Python.matikka2.2.executor": "Run",
     "Python.tehtävä 1.2.executor": "Run",
     "Python.tehtävä 1.3.executor": "Run",
     "Python.tehtävä 1.7.executor": "Run",
@@ -151,7 +155,8 @@
       <workItem from="1728372661689" duration="108000" />
       <workItem from="1729492287470" duration="11993000" />
       <workItem from="1729750988426" duration="7160000" />
-      <workItem from="1729841592689" duration="355000" />
+      <workItem from="1729841592689" duration="1543000" />
+      <workItem from="1730099397168" duration="7287000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -237,7 +242,14 @@
       <option name="presentableId" value="LOCAL−00012" />
       <updated>1729758735803</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL−00013" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1729842194354</created>
+      <option name="number" value="LOCAL−00013" />
+      <option name="presentableId" value="LOCAL−00013" />
+      <updated>1729842194354</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,15 +286,16 @@
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_6_4.coverage" NAME="tehtävä 6.4 Coverage Results" MODIFIED="1724914742393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 4" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_5_6.coverage" NAME="tehtävä 5.6 Coverage Results" MODIFIED="1725520577034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 6" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_2_3.coverage" NAME="tehtävä 2.3 Coverage Results" MODIFIED="1724669912765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 3" />
-    <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_1_8.coverage" NAME="tehtävä 1.8 Coverage Results" MODIFIED="1726123387326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 8" />
-    <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_2_6.coverage" NAME="tehtävä 2.6 Coverage Results" MODIFIED="1725516775550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 6" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_3_4.coverage" NAME="tehtävä 3.4 Coverage Results" MODIFIED="1724915613486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 4" />
+    <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_2_6.coverage" NAME="tehtävä 2.6 Coverage Results" MODIFIED="1725516775550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 6" />
+    <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_1_8.coverage" NAME="tehtävä 1.8 Coverage Results" MODIFIED="1726123387326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 8" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_4_5.coverage" NAME="tehtävä 4.5 Coverage Results" MODIFIED="1725356854380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 5" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_4_2.coverage" NAME="tehtävä 4.2 Coverage Results" MODIFIED="1724315699944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 2" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_3_7.coverage" NAME="tehtävä 3.7 Coverage Results" MODIFIED="1725977076743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 7" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$matikka2_1.coverage" NAME="matikka2.1 Coverage Results" MODIFIED="1729841933248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/matikka2" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Tehtävä_4_1.coverage" NAME="Tehtävä 4.1 Coverage Results" MODIFIED="1724754306815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 4" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Tehtävä_10_3.coverage" NAME="Tehtävä 10.3 Coverage Results" MODIFIED="1729508104427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 10" />
+    <SUITE FILE_PATH="coverage/Ohjelmointi_01$Tehtävä_11_1.coverage" NAME="Tehtävä 11.1 Coverage Results" MODIFIED="1730104172856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 11" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_4_4.coverage" NAME="tehtävä 4.4 Coverage Results" MODIFIED="1724916423444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 4" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Tehtävä_9_1.coverage" NAME="Tehtävä 9.1 Coverage Results" MODIFIED="1729494274287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 9" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_2_8.coverage" NAME="tehtävä 2.8 Coverage Results" MODIFIED="1726211700736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 8" />
@@ -299,6 +312,7 @@
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Kertaus_1.coverage" NAME="Kertaus.1 Coverage Results" MODIFIED="1727971051051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Kertaus" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_1_3.coverage" NAME="tehtävä 1.3 Coverage Results" MODIFIED="1724669107075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 3" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Tehtävä_10_4.coverage" NAME="Tehtävä 10.4 Coverage Results" MODIFIED="1729753203871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 10" />
+    <SUITE FILE_PATH="coverage/Ohjelmointi_01$Tehtävä_11_2.coverage" NAME="Tehtävä 11.2 Coverage Results" MODIFIED="1730107112780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 11" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_3_2.coverage" NAME="tehtävä 3.2 Coverage Results" MODIFIED="1724315145752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 2" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_1.coverage" NAME="tehtävä 1 Coverage Results" MODIFIED="1724310660791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/tehtävät 1 ja 2" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_2_4.coverage" NAME="tehtävä 2.4 Coverage Results" MODIFIED="1724753268657" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 4" />
@@ -313,6 +327,7 @@
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Kertaus_3_2.coverage" NAME="Kertaus.3.2 Coverage Results" MODIFIED="1728127865042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Kertaus" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_3_6.coverage" NAME="tehtävä 3.6 Coverage Results" MODIFIED="1725517812245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 6" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Tehtävä_9_4.coverage" NAME="Tehtävä 9.4 Coverage Results" MODIFIED="1729498495781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 9" />
+    <SUITE FILE_PATH="coverage/Ohjelmointi_01$matikka2_2.coverage" NAME="matikka2.2 Coverage Results" MODIFIED="1729842176722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/matikka2" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_5_2.coverage" NAME="tehtävä 5.2 Coverage Results" MODIFIED="1724321540020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 2" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_6.coverage" NAME="tehtävä 6 Coverage Results" MODIFIED="1724321981918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 2" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Kertaus_1_3.coverage" NAME="Kertaus.1.3 Coverage Results" MODIFIED="1727972808406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Kertaus" />
