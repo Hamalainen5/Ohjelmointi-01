@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="159182aa-fa01-430a-9a4c-d310b619513f" name="Changes" comment="initial commit">
-      <change afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 12/Tehtävä 12.1.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 12/Tehtävä 12.2.py" afterDir="false" />
-      <change afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 12/__init__.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 13/Tehtävä 13.1.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 13/Tehtävä 13.2.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 13/__init__.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Valmiita koodeja/random.py" afterDir="false" />
       <change beforePath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,17 @@
       <list>
         <option value="Python Script" />
       </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
     </option>
   </component>
   <component name="Git.Settings">
@@ -49,75 +61,78 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.3.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kertaus.1.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kertaus.1.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kertaus.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kertaus.2.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kertaus.2.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kertaus.2.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kertaus.2.4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kertaus.2.5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kertaus.3.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Kertaus.3.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Moduuli 12.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 1.5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 10.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 10.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 10.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 10.4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 11.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 11.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 12.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 12.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 4.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 9.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 9.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 9.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä 9.4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.matikka2.1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.matikka2.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 1.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 1.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 1.7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 1.8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 2.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 2.4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 2.5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 2.6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 2.7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 2.8.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 3.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 3.4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 3.5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 3.6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 3.7.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 3.8..executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 4.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 4.3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 4.4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 4.5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 4.6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 5.2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 5.4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 5.6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 6.4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 6.6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tehtävä 6.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.3.3.executor": "Run",
+    "Python.Kertaus.1.2.executor": "Run",
+    "Python.Kertaus.1.3.executor": "Run",
+    "Python.Kertaus.1.executor": "Run",
+    "Python.Kertaus.2.1.executor": "Run",
+    "Python.Kertaus.2.2.executor": "Run",
+    "Python.Kertaus.2.3.executor": "Run",
+    "Python.Kertaus.2.4.executor": "Run",
+    "Python.Kertaus.2.5.executor": "Run",
+    "Python.Kertaus.3.1.executor": "Run",
+    "Python.Kertaus.3.2.executor": "Run",
+    "Python.Moduuli 12.2.executor": "Run",
+    "Python.Tehtävä 1.5.executor": "Run",
+    "Python.Tehtävä 10.1.executor": "Run",
+    "Python.Tehtävä 10.2.executor": "Run",
+    "Python.Tehtävä 10.3.executor": "Run",
+    "Python.Tehtävä 10.4.executor": "Run",
+    "Python.Tehtävä 11.1.executor": "Run",
+    "Python.Tehtävä 11.2.executor": "Run",
+    "Python.Tehtävä 12.1.executor": "Run",
+    "Python.Tehtävä 12.2.executor": "Run",
+    "Python.Tehtävä 13.1.executor": "Run",
+    "Python.Tehtävä 13.2.executor": "Run",
+    "Python.Tehtävä 4.1.executor": "Run",
+    "Python.Tehtävä 9.1.executor": "Run",
+    "Python.Tehtävä 9.2.executor": "Run",
+    "Python.Tehtävä 9.3.executor": "Run",
+    "Python.Tehtävä 9.4.executor": "Run",
+    "Python.matikka2.1.executor": "Run",
+    "Python.matikka2.2.executor": "Run",
+    "Python.tehtävä 1.2.executor": "Run",
+    "Python.tehtävä 1.3.executor": "Run",
+    "Python.tehtävä 1.7.executor": "Run",
+    "Python.tehtävä 1.8.executor": "Run",
+    "Python.tehtävä 1.executor": "Run",
+    "Python.tehtävä 2.3.executor": "Run",
+    "Python.tehtävä 2.4.executor": "Run",
+    "Python.tehtävä 2.5.executor": "Run",
+    "Python.tehtävä 2.6.executor": "Run",
+    "Python.tehtävä 2.7.executor": "Run",
+    "Python.tehtävä 2.8.executor": "Run",
+    "Python.tehtävä 2.executor": "Run",
+    "Python.tehtävä 3.2.executor": "Run",
+    "Python.tehtävä 3.4.executor": "Run",
+    "Python.tehtävä 3.5.executor": "Run",
+    "Python.tehtävä 3.6.executor": "Run",
+    "Python.tehtävä 3.7.executor": "Run",
+    "Python.tehtävä 3.8..executor": "Run",
+    "Python.tehtävä 4.2.executor": "Run",
+    "Python.tehtävä 4.3.executor": "Run",
+    "Python.tehtävä 4.4.executor": "Run",
+    "Python.tehtävä 4.5.executor": "Run",
+    "Python.tehtävä 4.6.executor": "Run",
+    "Python.tehtävä 5.2.executor": "Run",
+    "Python.tehtävä 5.4.executor": "Run",
+    "Python.tehtävä 5.6.executor": "Run",
+    "Python.tehtävä 6.4.executor": "Run",
+    "Python.tehtävä 6.6.executor": "Run",
+    "Python.tehtävä 6.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -162,7 +177,8 @@
       <workItem from="1730099397168" duration="8755000" />
       <workItem from="1730199895525" duration="13000" />
       <workItem from="1730360865931" duration="3891000" />
-      <workItem from="1730449099518" duration="2217000" />
+      <workItem from="1730449099518" duration="3002000" />
+      <workItem from="1730964594555" duration="9752000" />
     </task>
     <task id="LOCAL−00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -262,7 +278,14 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1730107153728</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1730451346071</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1730451346071</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,9 +322,9 @@
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_6_4.coverage" NAME="tehtävä 6.4 Coverage Results" MODIFIED="1724914742393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 4" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_5_6.coverage" NAME="tehtävä 5.6 Coverage Results" MODIFIED="1725520577034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 6" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_2_3.coverage" NAME="tehtävä 2.3 Coverage Results" MODIFIED="1724669912765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 3" />
-    <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_3_4.coverage" NAME="tehtävä 3.4 Coverage Results" MODIFIED="1724915613486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 4" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_2_6.coverage" NAME="tehtävä 2.6 Coverage Results" MODIFIED="1725516775550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 6" />
-    <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_1_8.coverage" NAME="tehtävä 1.8 Coverage Results" MODIFIED="1726123387326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 8" />
+    <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_3_4.coverage" NAME="tehtävä 3.4 Coverage Results" MODIFIED="1724915613486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 4" />
+    <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_1_8.coverage" NAME="tehtävä 1.8 Coverage Results" MODIFIED="1730980111798" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 8" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Tehtävä_12_2.coverage" NAME="Tehtävä 12.2 Coverage Results" MODIFIED="1730450750694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 12" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_4_5.coverage" NAME="tehtävä 4.5 Coverage Results" MODIFIED="1725356854380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 5" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_4_2.coverage" NAME="tehtävä 4.2 Coverage Results" MODIFIED="1724315699944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 2" />
@@ -339,6 +362,7 @@
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Kertaus_2_2.coverage" NAME="Kertaus.2.2 Coverage Results" MODIFIED="1728035619497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Kertaus" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Kertaus_2_4.coverage" NAME="Kertaus.2.4 Coverage Results" MODIFIED="1728041692346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Kertaus" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Kertaus_3_2.coverage" NAME="Kertaus.3.2 Coverage Results" MODIFIED="1728127865042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Kertaus" />
+    <SUITE FILE_PATH="coverage/Ohjelmointi_01$Tehtävä_13_2.coverage" NAME="Tehtävä 13.2 Coverage Results" MODIFIED="1730983331860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 13" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_3_6.coverage" NAME="tehtävä 3.6 Coverage Results" MODIFIED="1725517812245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 6" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Tehtävä_9_4.coverage" NAME="Tehtävä 9.4 Coverage Results" MODIFIED="1729498495781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 9" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$matikka2_2.coverage" NAME="matikka2.2 Coverage Results" MODIFIED="1729842176722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/matikka2" />
@@ -351,5 +375,6 @@
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Moduuli_12_2.coverage" NAME="Moduuli 12.2 Coverage Results" MODIFIED="1730366862658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 12" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$Tehtävä_9_3.coverage" NAME="Tehtävä 9.3 Coverage Results" MODIFIED="1729496079930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 9" />
     <SUITE FILE_PATH="coverage/Ohjelmointi_01$tehtävä_2_5.coverage" NAME="tehtävä 2.5 Coverage Results" MODIFIED="1725276074082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 5" />
+    <SUITE FILE_PATH="coverage/Ohjelmointi_01$Tehtävä_13_1.coverage" NAME="Tehtävä 13.1 Coverage Results" MODIFIED="1730983107084" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive/Työpöytä/Koodit/Ohjelmointi-01/Moduuli 13" />
   </component>
 </project>
